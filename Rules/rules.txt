@@ -1,0 +1,37 @@
+C++ is a high-level, general-purpose programming language.
+
+break;                                 // Using 'break' to exit the loop early when the target is found
+continue;                              // Using 'continue' to skip specific elements//
+to_string()                            //convert int to string .this is a function in STL Library//
+                                     eg.   string x = to_string(n);
+                                           return x.length();
+
+
+
+
+
+
+//*****************************Notes Time complexity**************************************//
+//Time complexity does not refer to the time taken 
+by the machine to execute a particular code.// 
+//That is why we should not compare the two different
+codes on the basis of the time taken by a machine as the time is dependent on it.//
+//the time complexity of a particular code depends on the given input size//
+//Here come the three rules, that we are going to follow while calculating the time complexity:
+
+    We will always calculate the time complexity for the worst-case scenario.
+    We will avoid including the constant terms.
+    We will also avoid the lower values //
+//Note: A point to remember is that we can actually ignore the constant coefficients as well.
+ For example, considering the time complexity O(4N3 ) as O(N3 ) is also correct.//
+//if the time complexity will be O(N2/2). It can be also written as O(N2) avoiding the coefficient 1/2 .//
+
+
+
+
+
+//------------------Pattern Approach--------------------------------//
+//For outer Loop, we count the n.o of rows and loop for them//
+//fro inner loop ,we count number of columns and also include logic for it with connection to rows //
+
+

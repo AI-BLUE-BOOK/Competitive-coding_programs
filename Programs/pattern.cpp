@@ -402,7 +402,7 @@ int main()
     }
 }
 
-//-----------------Increasing Letter Triangle Pattern-----------------------------------------//
+//-----------------Increasing Letter Triangle Pattern Approach-1----------------------------------------//
 // take char alphabet='A' variable
 // also alphabet+=1 is too much used in this code
 // LOGIC: Above two are used at different position in loop to get the desired output
@@ -419,3 +419,74 @@ ABCDE
 
 */
 
+int main()
+{
+    int N=5;
+     
+    for(int i=0;i<N;i++)
+    {
+        char alphabet='A';
+        for(int j=0;j<=i;j++)
+        {
+            cout<<alphabet;
+            alphabet+=1;
+        }
+        cout<<endl;
+    }
+}
+
+/**************Increasing Letter Triangle Pattern Approach-2********************************************/
+
+/*
+
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+*/
+int main()
+{
+    int N=5;
+    char alphabet='A';                          //Location of this variable is changed from above program          
+    for(int i=0;i<N;i++)                        //so the output is changed
+    {
+        
+        for(int j=0;j<=i;j++)
+        {
+            cout<<alphabet;
+            alphabet+=1;                        //increment is done within the inner loop
+        }
+        cout<<endl;
+    }
+}
+
+//-----------------Increasing Letter Triangle Pattern Approach-3----------------------------------------//
+
+/*
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+*/
+
+int main()
+{
+    int N=5;
+   char alphabet='A';
+    for(int i=0;i<N;i++)
+    {
+         
+        for(int j=0;j<=i;j++)
+        {
+            cout<<alphabet;
+           
+        }
+        alphabet+=1;                        //increment is done after the inner loop
+        cout<<endl;
+    }
+}

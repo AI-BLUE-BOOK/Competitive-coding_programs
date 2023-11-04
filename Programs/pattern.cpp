@@ -404,8 +404,9 @@ int main()
 
 //-----------------Increasing Letter Triangle Pattern-----------------------------------------//
 // take char alphabet='A' variable
-// also alphabet++ is too much used in this code
+// also alphabet+=1 is too much used in this code
 // LOGIC: Above two are used at different position in loop to get the desired output
+// THE CONCEPT OF GLOBAL AND LOCAL SCOPE OF VARIABLE IS USED
 // only they both are sufficient to get the desired output
 
 /*
@@ -417,3 +418,4 @@ ABCD
 ABCDE
 
 */
+

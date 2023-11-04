@@ -402,4 +402,18 @@ int main()
     }
 }
 
-//------------------------------------------------------------------------//
+//-----------------Increasing Letter Triangle Pattern-----------------------------------------//
+// take char alphabet='A' variable
+// also alphabet++ is too much used in this code
+// LOGIC: Above two are used at different position in loop to get the desired output
+// only they both are sufficient to get the desired output
+
+/*
+
+A
+AB
+ABC
+ABCD
+ABCDE
+
+*/

@@ -369,8 +369,6 @@ int main()
 }
 
 //------------------------Increasing number Triangle-----------------------------//
-//When we have to increase the number we usually take a variable and increase it //
-//in the loop and print it.
 
 /*
 
@@ -381,6 +379,10 @@ int main()
 11 12 13 14 15
 
 */
+
+//When we have to increase the number we usually take a variable and increase it //
+//in the loop and print it.
+
 #include<iostream>
 using namespace std;
 
@@ -399,3 +401,5 @@ int main()
         cout<<endl;
     }
 }
+
+//------------------------------------------------------------------------//

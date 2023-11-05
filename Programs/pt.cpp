@@ -11,10 +11,12 @@ int main()
      {
         cout<<" ";
      }
+     int mid=(2*i+1)/2;
      for(int k=0;k<2*i+1;k++)
      {
         cout<<alphabet;
-        alphabet+=1;
+        if(k<mid) alphabet+=1;
+        else alphabet--;
      }
      for(int j=N-i-1;j>i;j--)
      {

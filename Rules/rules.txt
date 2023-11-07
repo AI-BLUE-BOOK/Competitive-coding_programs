@@ -51,3 +51,9 @@ while(something)
 &&.          // Logical AND
 
 
+!            // Logical NOT 
+UNIARY operator(!) has higher precedence than relational operator(==) also 
+
+&& || have lower precedence than relational operator 
+
+

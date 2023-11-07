@@ -47,4 +47,7 @@ while(something)
     {}
 
 
+||           // Logical OR
+&&.          // Logical AND
+
 

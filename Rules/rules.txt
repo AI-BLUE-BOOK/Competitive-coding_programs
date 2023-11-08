@@ -34,4 +34,26 @@ codes on the basis of the time taken by a machine as the time is dependent on it
 //For outer Loop, we count the n.o of rows and loop for them//
 //fro inner loop ,we count number of columns and also include logic for it with connection to rows //
 
+//-------rule------//
+DON'T FORGET TO USE SEMICOLON AFTER WHILE HERE
+do
+  {}
+while(something);
+
+
+//
+DON'T USE SEMICOLON HERE 
+while(something)
+    {}
+
+
+||           // Logical OR
+&&.          // Logical AND
+
+
+!            // Logical NOT 
+UNIARY operator(!) has higher precedence than relational operator(==) also 
+
+&& || have lower precedence than relational operator 
+
 

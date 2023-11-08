@@ -524,3 +524,11 @@ int main()
      cout<<endl;
    }
 }
+
+//-----------------Alpha Triangle pattern------------//
+/*
+
+E
+
+
+*/

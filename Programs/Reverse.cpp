@@ -37,7 +37,7 @@ int main()
   return 0;
 }
 
-//------------Reverse the string METHOD 1----------------//
+//------------Reverse the string METHOD 2----------------//
 
 #include <iostream>
 #include <string>

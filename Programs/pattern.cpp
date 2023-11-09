@@ -526,9 +526,3 @@ int main()
 }
 
 //-----------------Alpha Triangle pattern------------//
-/*
-
-E
-
-
-*/

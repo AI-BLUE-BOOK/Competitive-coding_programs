@@ -5,6 +5,8 @@ continue;                              // Using 'continue' to skip specific elem
 to_string()                            //convert int to string .this is a function in STL Library//
                                      eg.   string x = to_string(n);
                                            return x.length();
+getline(cin, s);                      //to take input of string with spaces//
+reverse(str.begin(),str.end());       //reverse a string and it is found in aldorithm library//
 
 
 
@@ -46,13 +48,14 @@ DON'T USE SEMICOLON HERE
 while(something)
     {}
 
+//-------------------------RULE-3------------------------------------//
 
 ||                                          // Logical OR
 &&.                                         // Logical AND
-
-
 !                                           // Logical NOT 
-// UNIARY operator(!) has higher precedence than relational operator(<= , =>) also 
-// (&& ,||) have lower precedence than relational operator(<= , =>)
+
+//-------------------------RULE-4------------------------------------//
+UNIARY operator(!) has higher precedence than relational operator(<= , =>) also 
+(&& ,||) have lower precedence than relational operator(<= , =>)
 
 

@@ -1,4 +1,4 @@
-//------------Palindrome String---------------//
+//------------Method 1 Palindrome String---------------//
 
 //An integer is considered a palindrome if its digits are symmetric.
 //For example, 121 is a palindrome, as well as 121.

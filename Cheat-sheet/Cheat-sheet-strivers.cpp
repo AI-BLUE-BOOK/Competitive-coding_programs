@@ -12,6 +12,7 @@
 
 #include <bits/stdc++.h>                            //time saver when need too much libraries at once
 using namespace std;                                //makes code clearner and shorter
+#include<cmath>                                     //for maths function in c++
 
 //*---------------------------------------------Alias-----------------------------
 #define endl                                        '\n'     // '\n' is faster than endl    // endl flushes the output buffer everytime ,reduce the speed of execution

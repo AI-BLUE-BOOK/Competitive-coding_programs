@@ -513,7 +513,7 @@ int main()
      int mid=(2*i+1)/2;
      for(int k=0;k<2*i+1;k++)
      {
-        cout<<alphabet;                 //New Concept Here is used
+        cout<<alphabet;                 //New Concept is used here
         if(k<mid) alphabet+=1;
         else alphabet--;
      }

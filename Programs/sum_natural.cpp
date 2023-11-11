@@ -41,7 +41,8 @@ int main()
     sum_natural(n);
 }
 
-//-----------Sum of first natural numbers using recursion----------//
+//---Sum of first natural numbers using recursion by functional way---//
+
 //Time Complexity: O(N)
 //Space Complexity: O(N)
 

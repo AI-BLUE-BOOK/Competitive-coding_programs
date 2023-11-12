@@ -6,7 +6,11 @@ to_string()                            //convert int to string .this is a functi
                                      eg.   string x = to_string(n);
                                            return x.length();
 getline(cin, s);                      //to take input of string with spaces//
-reverse(str.begin(),str.end());       //reverse a string and it is found in aldorithm library//
+reverse(str.begin(),str.end());       //reverse a string and it is found in algorithm library//
+array_name.reverse(BidirectionalIterator first, BidirectionalIterator last);
+sort(str.begin(),str.end());          //sort a string and it is found in algorithm library//
+
+
 
 
 

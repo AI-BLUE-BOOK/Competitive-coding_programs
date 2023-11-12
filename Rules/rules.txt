@@ -8,6 +8,9 @@ to_string()                            //convert int to string .this is a functi
 getline(cin, s);                      //to take input of string with spaces//
 reverse(str.begin(),str.end());       //reverse a string and it is found in algorithm library//
 array_name.reverse(BidirectionalIterator first, BidirectionalIterator last);
+//Bidirectional iterators first and last indicate the starting and ending positions in the array.
+//Elements that lie in this range are reversed.
+//Note that this range includes the first but excludes the last element.
 sort(str.begin(),str.end());          //sort a string and it is found in algorithm library//
 
 

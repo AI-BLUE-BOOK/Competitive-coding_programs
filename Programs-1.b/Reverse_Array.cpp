@@ -85,6 +85,8 @@ void reverse_array(int arr[],int start,int end)
 //Space Complexity: O(1)
 //Best method to reverse an array
 
+#include<algorithm>                         //for reverse function
+
 void reverse_array(int arr[],int n)
 {
     reverse(arr,arr+n);         //reverse function in STL library

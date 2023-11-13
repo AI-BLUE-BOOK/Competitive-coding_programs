@@ -96,7 +96,8 @@ int main()
   return 0;
 }
 //---------------method 4 Palindrome string RECURSIVE approach---------------//
-
+//Time Complexity: O(N)
+//Space Complexity: O(1) {No extra space is used that is why it is constant}.
 bool palindrome(int i, string& s){
     
     // Base Condition
@@ -113,14 +114,15 @@ bool palindrome(int i, string& s){
 
 int main() {
 	
-	// Example string.
-	string s = "madam";
+	
+	string s;
+    cin>>s;
 	cout<<palindrome(0,s);
 	cout<<endl;
 	return 0;
 }
 
-//----------------method 1 Palindrome Number------------------//
+//-----------------------------method 1 Palindrome Number--------------------//
 
 
 #include<iostream>

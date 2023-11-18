@@ -1,0 +1,15 @@
+//The more nested loop the algorithm contains,the slower the algorithm will be.
+// if there are k nested loops,the time complexity is O(n^k).
+//Time Complexity of recursion function depends on the number of times the function is called.
+//and the time Complexity of a single call.The total time complexity is the product of the two.
+
+
+//--------------------STD Library--------------------
+find(arr,arr+length,value);
+
+sort(arr,arr+length);
+
+count(arr,arr+length,value);
+
+search(source.begin(),source.end(),target.begin(),target.end());
+search(source,source+length,target,target+Length());

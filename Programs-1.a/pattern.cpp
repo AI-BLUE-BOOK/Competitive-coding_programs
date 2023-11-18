@@ -46,7 +46,8 @@ void pattern2(int N){
        // Here, we print numbers from 1 to the row number
        // instead of stars in each row
 
-        for(int j=0;j<=i;j++){
+        for(int j=0;j<=i;j++)
+        {
             cout<<j+1<<" ";
         }
         

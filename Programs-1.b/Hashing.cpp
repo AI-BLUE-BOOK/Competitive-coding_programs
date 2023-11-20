@@ -2,7 +2,7 @@
 //the time complexity of the function will be O(N)
 //If the number of queries is Q, the time complexity will be O(Q*N)
 
-//But the unordered_map in C++ and HashMap in Java, both take O(1) time complexity to perform storing(i.e. insertion) and fetching(i.e. retrieval).
+//But the unordered_map in C++ take O(1) time complexity to perform storing(i.e. insertion) and fetching(i.e. retrieval).
 
 
 //--------------------optimised approach------------------------>

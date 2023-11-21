@@ -99,3 +99,23 @@ int main()
 
 //-------------------------Division Method-----------------------------//
 //Pre storing: hash[arr[i]%10] += 1 and Fetching: hash[number%10]
+
+//---------------------------------------------------------------------------//
+//map stores all elements in sorted order
+//unordered_map stores all elements in any order
+
+//We can Simplify perform Number Hashing using map in C++ as follows:
+    map<int, int> mp;
+    for (int i = 0; i < n; i++) {
+        mp[arr[i]]++;
+    }
+//We can simplify perform Character Hashing using map in C++ as follows:
+    map<char, int> mp;
+    for (int i = 0; i < s.size(); i++) {
+        mp[s[i]]++;
+    }
+
+
+//The total time complexity will be O(N * time taken by map data structure).
+//Storing(i.e. insertion) and fetching(i.e. retrieval) in a C++ map,
+//both take always O(logN) time complexity, where N = the size of the map

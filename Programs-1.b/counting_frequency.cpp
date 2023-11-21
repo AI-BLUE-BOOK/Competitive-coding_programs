@@ -41,4 +41,8 @@ void frequency(int arr[],int n)
     {
         map[arr[i]]++;
     }
+    for(auto x :map)
+    {
+        cout<<
+    }
 }

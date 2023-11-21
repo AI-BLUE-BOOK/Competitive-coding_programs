@@ -29,3 +29,25 @@ int main()
 }
 //https://www.geeksforgeeks.org/
 //map-associative-containers-the-c-standard-template-library-stl/
+
+//------------------Traversing a map-----------------------------------------//
+// Traversing can be done by four ways:
+// 1. Using iterators
+// 2. Using ranged based for-each loop
+// 3. Using for_each() function and lambda function
+// 4. using begin() and end() functions
+
+//-------------1.iterators------------------------------------//
+    while(i!=map.end())
+    {
+        cout<<i->first<<" "<<i->second<<endl;
+        i++;
+    }
+    
+//-------------2.Ranged bsed for Loop-------------------------//
+   for(auto i: map)
+    cout<<i.first<<" "<<i.second<<endl;
+
+//-------------3.begin() and end() functions------------------//
+    for(auto i=map.begin();i!=map.end();i++)
+       cout<<i->first<<" "<<i->second<<endl;

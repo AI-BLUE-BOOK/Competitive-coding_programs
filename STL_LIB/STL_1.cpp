@@ -27,8 +27,6 @@ int main()
  
     return 0;
 }
-//https://www.geeksforgeeks.org/
-//map-associative-containers-the-c-standard-template-library-stl/
 
 //------------------Traversing a map-----------------------------------------//
 // Traversing can be done by four ways:
@@ -44,7 +42,7 @@ int main()
         i++;
     }
     
-//-------------2.Ranged bsed for Loop-------------------------//
+//-------------2.Ranged based for Loop-------------------------//
    for(auto i: map)
     cout<<i.first<<" "<<i.second<<endl;
 

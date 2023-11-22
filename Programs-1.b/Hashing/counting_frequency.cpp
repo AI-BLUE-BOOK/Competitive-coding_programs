@@ -85,3 +85,50 @@ void countfre(int arr[],int n)
     cout<<"Maximum frequency element is: "<<max_Element<<endl;
     cout<<"Minimum frequency element is: "<<min_Element<<endl;
 }
+
+//-----------------Using map-------------------//
+#include<iostream>
+using namespace std;
+
+void Frequency(int arr[],int n)
+{
+    unordered_map<int,int> map;
+    int maxfreq=0,minfreq=n;
+    int max_element=0,min_element=0;
+
+    for(int i=0;i<n;i++)
+    {
+        map[arr[i]];
+    }
+    for(auto x :map)
+    {
+        int count=x.second;
+        int element=x.first;
+
+        if(count > maxfreq)
+        {
+            maxfreq=count;
+            max_element= element;
+        }
+        if(count < minfreq)
+        {
+            minfreq=count;
+            min_element= element;
+        }
+    }
+    cout<<"Maximum frequency element is: "<<max_element<<endl;
+    cout<<"Minimum frequency element is: "<<min_element<<endl;
+}
+int main()
+{
+    int arr[]={1,2,1,2,1,2,10};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    Frequency(arr,n);
+    return 0;
+}
+
+// Time complexity: O(N).The insertion and retrieval operation in the map takes O(1) time.
+// Space complexity: O(N)
+
+
+

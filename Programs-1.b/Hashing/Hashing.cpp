@@ -7,6 +7,8 @@
 //Outside the main function, Boolean integer array size can be atmost 10^8 i.e arr[100000000]
 
 
+//But the unordered_map in C++ take O(1) time complexity to perform storing(i.e. insertion) and fetching(i.e. retrieval).
+
 
 //--------------------optimised approach------------------------>
 #include <bits/stdc++.h>
@@ -94,7 +96,30 @@ int main()
 //Our first priority will be always to use unordered_map and then map.
 //If unordered_map gives a time limit exceeded error(TLE), we will then use the map.
 
-//Hashing is done using several methods. Among them, the three most common ones are
+//---------------------------------------------------------------------------//
+//map stores all elements in sorted order
+//unordered_map stores all elements in any order
+
+//We can Simplify perform Number Hashing using map in C++ as follows:
+    map<int, int> mp;
+    for (int i = 0; i < n; i++) {
+        mp[arr[i]]++;
+    }
+//We can simplify perform Character Hashing using map in C++ as follows:
+    map<char, int> mp;
+    for (int i = 0; i < s.size(); i++) {
+        mp[s[i]]++;
+    }
+
+//The total time complexity will be O(N * time taken by map data structure).
+//Storing(i.e. insertion) and fetching(i.e. retrieval) in a C++ map,
+//both take always O(logN) time complexity, where N = the size of the map.
+//But the unordered_map in C++ take O(1) time complexity,
+//to perform storing(i.e. insertion) and fetching(i.e. retrieval).
+//Most of the time, we will be using unordered_map.
+//Our first priority will be always to use unordered_map and then map. If unordered_map gives a time limit exceeded error(TLE), we will then use the map.
+
+//----------------------Hashing is done using several methods----------------//
 //  1.Division method
 //  2.Folding method
 //  3.Mid-Square method
@@ -102,3 +127,9 @@ int main()
 
 //-------------------------Division Method-----------------------------//
 //Pre storing: hash[arr[i]%10] += 1 and Fetching: hash[number%10]
+//When array elements give the same remainder when divided by 10,
+//then it will be stored in the same index of the hash array.
+//We will apply the linear chaining method to resolve the collision.
+
+//But for unordered_map the data type is limited to integer, double, string, etc.
+//We cannot have an unordered_map whose key is pair<int, int>.

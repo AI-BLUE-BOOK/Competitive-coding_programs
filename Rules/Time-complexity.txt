@@ -4,7 +4,7 @@
 //and the time Complexity of a single call.The total time complexity is the product of the two.
 
 
-//--------------------STD Library--------------------
+//--------------------STL Library--------------------
 find(arr,arr+length,value);
 
 sort(arr,arr+length);
@@ -13,3 +13,4 @@ count(arr,arr+length,value);
 
 search(source.begin(),source.end(),target.begin(),target.end());
 search(source,source+length,target,target+Length());
+

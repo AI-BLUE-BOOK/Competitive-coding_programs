@@ -1,6 +1,11 @@
 //----Hashing:Brute Force approach---->
 //the time complexity of the function will be O(N)
 //If the number of queries is Q, the time complexity will be O(Q*N)
+//Inside main function INTEGER array size can be atmost 10^6 i.e arr[1000000]
+//Outside main function INTEGER array size can be atmost 10^7 i.e arr[10000000]
+//Inside the main function, Boolean integer array size can be atmost 10^7 i.e arr[10000000]
+//Outside the main function, Boolean integer array size can be atmost 10^8 i.e arr[100000000]
+
 
 
 //--------------------optimised approach------------------------>

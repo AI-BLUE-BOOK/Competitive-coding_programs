@@ -1,6 +1,6 @@
 //*******************Count frequency of each element in the array************//
-
-//-----------------------Using FOR LOOP-----------------------------//
+#include<bits/stdc++.h>
+//-----------------------Using FOR LOOP-------------------------------//
 void Countfre(int arr[],int n)
 {
     vector<bool> visited(n,false);
@@ -24,7 +24,7 @@ void Countfre(int arr[],int n)
 }
 
 int main()
-{
+{   int arr[]={1,2,1,2,1,2,10};
     int n=sizeof(arr)/sizeof(arr[0]);
     Countfre(arr,n);
 }

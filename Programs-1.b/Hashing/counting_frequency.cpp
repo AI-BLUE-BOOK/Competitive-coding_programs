@@ -6,7 +6,7 @@ void Countfre(int arr[],int n)
     vector<bool> visited(n,false);
     for(int i=0;i<n;i++)
     {
-        if(visited==True)
+        if(visited[i]==true)
         continue;
 
         int count=1;
@@ -53,7 +53,7 @@ void frequency(int arr[],int n)
 //-----------Brute-Force Approach using two loops-------------------//
 void countfre(int arr[],int n)
 {
-    vector<int,int> visited(n,false);
+    vector<bool> visited(n,false);
     int maxfreq=0 , minfreq=n;
     int max_Element=0,min_Element=0;
 

@@ -1,4 +1,3 @@
-// Date: 8/11/2023
 //------------Reverse the number-----------------//
 #include<iostream>
 using namespace std;

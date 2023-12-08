@@ -123,7 +123,8 @@ void pattern5(int N)
 */
 
 
-int main(){
+int main()
+{
     int N=6;
     for(int i=0;i<N;i++)
     {   // no. of columns = (N - row index) for each line here

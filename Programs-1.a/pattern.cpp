@@ -526,4 +526,4 @@ int main()
    }
 }
 
-//-----------------Alpha Triangle pattern------------//
+//----------------eg-15.Reverse Letter Triangle Pattern------------//

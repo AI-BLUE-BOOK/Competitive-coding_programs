@@ -1,3 +1,5 @@
+// format 1 maybe only used in leetcode
+//maybe only used in class Solution
 int init = [] {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
@@ -44,3 +46,6 @@ public:
         return nums[mid] == target ? mid : -1;
     }
 };
+
+//format 2 in single line best works in leetcode but in codingninja it is not that much useful
+ ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
